@@ -1,0 +1,116 @@
+@keyframes waveeffect{
+    0% {
+        background-position:center 0vh;
+        opacity: 1;
+}
+    100% {
+        background-position:center 1.5vh;
+        opacity: 1;
+    }
+}
+@keyframes wavemovingeffect1{
+    0% {
+        background-position:0vw center;
+    }
+    100% {
+        background-position:100vw center;
+    }
+}
+.wave1{
+    animation: wavemovingeffect1 5s linear infinite;
+}
+.waveback{
+    width:100%;
+    height: 15rem;
+    position:relative;
+    top:-10.7rem;
+    z-index:3;
+    /* opacity: 0; */
+}
+.waveback>div{
+    position:absolute;
+    /* background-color: aqua; */
+    width:100%;
+    height:100%;
+}
+.waveback1{
+    animation: waveeffect .1s 1s linear;
+}
+.waveback1_5{
+    top:1.5vh;
+    animation: waveeffect .15s 1.1s linear;
+}
+.waveback2{
+    top:2.5vh;
+    animation: waveeffect .2s 1.25s linear;
+}
+.waveback3{
+    top:4.3vh;
+    animation: waveeffect .25s 1.45s linear;
+}
+.waveback4{
+    top:7.7vh;
+    animation: waveeffect .3s 1.7s linear;
+}
+.waveback4_5{
+    top:9.5vh;
+    animation: waveeffect .35s 2s linear;
+}
+.waveback5{
+    top:10vh;
+    animation: waveeffect .4s 2.35s ease-out;
+}
+/* .wave>div{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background-color: white;
+    opacity: 1;
+} */
+.wave{
+    width:100%;
+    height:15rem;
+    position:relative;
+    top:-25.7rem;
+    z-index:3;
+}
+.wave>div{
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity: 0;
+}
+.wave1{
+    background:url('../img/wave1.png') center center / 100% no-repeat;
+    animation: waveeffect .1s 1s linear;
+}
+.wave1_5{
+    top:1.5vh;
+    background:url('../img/wave2.png') center center / 100% no-repeat;
+    animation: waveeffect .15s 1.1s linear;
+}
+.wave2{
+    top:2.5vh;
+    background:url('../img/wave3.png') center center / 100% no-repeat;
+    animation: waveeffect .2s 1.25s linear;
+}
+.wave3{
+    top:4.3vh;
+    background:url('../img/wave1-5.png') center center / 100% no-repeat;
+    animation: waveeffect .25s 1.45s linear;
+}
+.wave4{
+    top:7.7vh;
+    background:url('../img/wave4.png') center center / 100% no-repeat;
+    animation: waveeffect .3s 1.7s linear;
+}
+.wave4_5{
+    top:9.5vh;
+    background:url('../img/wave4-5.png') center center / 100% no-repeat;
+    animation: waveeffect .35s 2s linear;
+}
+.wave5{
+    top:10vh;
+    background:url('../img/wave5.png') center center / 100% no-repeat;
+    animation: waveeffect .4s 2.35s ease-out;
+}

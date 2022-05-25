@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "pretendard";
+    src: url('../font/Pretendard-Regular.ttf');
+}
+@import url('https://fonts.googleapis.com/css2&family=Archivo+Black&family=Permanent+Marker?family=Anton&family=Black+Han+Sans&family=Cabin:wght@500&family=Hahmlet&family=Noto+Sans+KR&family=Oswald&family=Roboto&display=swap');
+.main_header{
+    position: relative;
+    z-index:2;
+    width:100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.backgroundimg{
+    width: 2560px;;
+    height:100%;
+    display:flex;
+    flex-wrap:nowrap;
+    top:0rem;
+    background:url('../img/headerback.png') center center / 100% no-repeat;
+}
+.main_inner{
+    height: 100vh;
+    display:flex;
+    margin:0rem;
+    flex-direction: column;
+    position:relative;
+
+    top:-103.5%;
+    align-items: center; 
+}
+.main_title{
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: bold;
+    display:flex;
+    color:white;
+    position:relative;
+    top:30%;
+    font-size:7.5rem;
+}
+.sub_title{
+    font-family: "pretendard";
+    display:flex;
+    color:white;
+    position: relative;
+    top:33%;
+    font-size: 1.7rem;
+}
